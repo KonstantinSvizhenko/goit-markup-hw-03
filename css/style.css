@@ -4,17 +4,22 @@
     --secondary-text-color: #212121;
     --main-hover-color: #2196F3;
     --secondary-background-color: #2F303A;
+    --team-bg-color: #F5F4FA;
     
 }
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
 a {
     text-decoration: none;
 }
 body {
     color: var(--main-text-color);
     background-color: #FFFFFF;
+    
 }   
 body {
 font-family: 'Roboto', sans-serif;
@@ -25,6 +30,21 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);
 }
+div {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* index styling */
             /* head */
@@ -55,6 +75,9 @@ color: var(--secondary-text-color);
 .nav-list-link:hover, :focus{
     color: var(--main-hover-color);
 }
+.header {
+    
+}
 
 .header-contacts {
 
@@ -73,20 +96,38 @@ color: var(--main-text-color);
                  /*  Hero  */
 
 .hero {
-
-
-text-align: center;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+    padding-top: 200px;
+    margin-bottom: 94px;
+   
+    
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+   
+}
+.hero-title {
+    
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
 }
 
 .hero-button {
+    margin-bottom: 200px;
+    
     cursor: pointer;
-
+    padding: 10px 32px;
+    display: inline-block;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -95,7 +136,7 @@ color: #FFFFFF;
     font-size: 16px;
     line-height: 1.88;
     color: #FFFFFF;
-}
+    }
 .hero-button:hover {
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -107,9 +148,12 @@ color: #FFFFFF;
     border-radius: 4px;
 }
                     /* advantages */
+
+}
+
 .advantages-item {
     
-    
+    margin-bottom: 10px;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -118,7 +162,7 @@ color: #FFFFFF;
     color: var(--secondary-text-color);
 }
 .advantages-text {
-    
+    margin-bottom: 94px;
     
     font-weight: normal;
     font-size: 14px;
@@ -129,7 +173,7 @@ color: #FFFFFF;
         /* Specialization */
 .specialization {
     
-    text-align: center;
+    
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
@@ -138,7 +182,7 @@ color: #FFFFFF;
     color: var(--secondary-text-color);
 }
                 /* Team */
-.team {
+.team-title {
 
 text-align: center;
 font-weight: bold;
@@ -150,8 +194,8 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 .team-member {
+margin-bottom: 10px;
 
-text-align: center;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
@@ -160,12 +204,13 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 .team-specific {
-
-text-align: center;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+    margin-bottom: 30px;
+    margin-top: 0;
+    
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 
 color: var(--main-text-color);
 }
@@ -278,4 +323,71 @@ color: #FFFFFF;
     }
     .nav-list .nav-list-link.current {
         color: #2196F3;
+    }
+
+    .container {
+        margin-left: auto;
+        margin-right: auto ;
+        outline: 2px solid tomato;
+         }
+
+    .specialization-name {
+        
+        margin-bottom: 50px;
+        
+    }
+    .specialization-list {
+        margin-top: 0;
+        margin-bottom: 94px;
+    }
+    
+    .team {
+        background-color: var(--team-bg-color);
+        padding-bottom: 94px;
+        padding-top: 94px;
+
+    }
+    .team-title {
+        margin-bottom: 50px;
+    }
+    .team-photo {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .team-list {
+        
+        width: 270px;
+        height: 368px;
+        left: 1115px;
+        top: 1635px;
+
+        background: #FFFFFF;
+        
+
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+
+    }
+
+
+
+    
+    
+    .footer {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }    
+    .footer-logo {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .footer-adress {
+        margin-bottom: 9px;
+        
+    }
+    .footer-contacts {
+        display: inline-block;
+        margin-bottom: 9px;
     }
