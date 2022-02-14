@@ -374,26 +374,27 @@ color: #FFFFFF;
         border-radius: 0px 0px 4px 4px;
 
     }
-
+        .footer {
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }    
+            .footer-logo {
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+            .footer-adress {
+                margin-bottom: 9px;
+                
+            }
+            .footer-contacts {
+                display: inline-block;
+                margin-bottom: 9px;
+            }
+            
 
 
     
     
-    .footer {
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }    
-    .footer-logo {
-        display: inline-block;
-        margin-bottom: 20px;
-    }
-    .footer-adress {
-        margin-bottom: 9px;
-        
-    }
-    .footer-contacts {
-        display: inline-block;
-        margin-bottom: 9px;
-    }
+    
