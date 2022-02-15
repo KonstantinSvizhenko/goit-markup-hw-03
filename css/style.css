@@ -6,6 +6,7 @@
     --secondary-background-color: #2F303A;
     --team-bg-color: #F5F4FA;
     --portfolio-img-border: #EEEEEE;
+    --header-border-color: #ECECEC;
     
 }
 ul {
@@ -50,7 +51,7 @@ p {
     
         margin-left: auto;
         margin-right: auto ;
-        outline: 2px solid tomato;
+        
         padding: 0 15px;
         
         width: 1200px;
@@ -59,6 +60,10 @@ p {
 
 /* index styling */
             /* head */
+
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
 
 .logo {
 font-family: 'Raleway', sans-serif;
@@ -90,7 +95,7 @@ color: var(--secondary-text-color);
 
 
 .header-contacts {
-outline: 2px solid tomato;
+
 
 font-weight: 500;
 font-size: 14px;
@@ -104,7 +109,7 @@ color: var(--main-text-color);
 }
 
 .nav-list-item {
-    outline: 2px solid tomato;
+    
     margin: 32px 0;
     display: block;
     
@@ -145,8 +150,8 @@ color: var(--main-text-color);
                  /*  Hero  */
 
 .hero {
-    padding-top: 200px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
    
     
     text-align: center;
@@ -172,7 +177,7 @@ color: var(--main-text-color);
 }
 
 .hero-button {
-    margin-bottom: 200px;
+    
     
     cursor: pointer;
     padding: 10px 32px;
@@ -198,7 +203,8 @@ color: var(--main-text-color);
 }
                     /* advantages */
 .advantages {
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }                    
 
 .advantages-main {
@@ -236,7 +242,8 @@ color: var(--main-text-color);
 
     
 .specialization { 
-    margin-bottom: 94px;   
+    padding-top: 94px;
+    padding-bottom: 94px;   
     font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
@@ -244,7 +251,7 @@ color: var(--main-text-color);
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
-.specialization-name {
+ .specialization-name {
     text-align: center;
     
     margin-bottom: 50px;
@@ -399,15 +406,18 @@ color: rgba(255, 255, 255, 0.6);
 }
  
              /* Portfolio styling */
+
+     .presenatation {
+         padding-top: 94px;
+         padding-bottom: 94px;
+     }
     .portfolio {
         display: flex;
         justify-content: center;
-        padding-top: 94px;
+        
         padding-bottom: 50px;
     }
       
-    
-   
     
     .portfolio-nav-list {
     display: inline-block;
@@ -424,7 +434,9 @@ color: rgba(255, 255, 255, 0.6);
     border: transparent;
 }
 
-
+    .portfolio-nav-list:not(last-child) {
+        margin-right: 8px;
+    }
 
 
 .portfolio-nav-list:hover {
