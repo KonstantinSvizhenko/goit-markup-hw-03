@@ -213,7 +213,7 @@ color: var(--main-text-color);
 
 .advantages-item {
     
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -287,7 +287,7 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 .team-member {
-margin-bottom: 10px;
+padding-bottom: 10px;
 text-align: center;
 font-weight: 500;
 font-size: 16px;
@@ -296,7 +296,7 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 .team-specific {
-    margin-bottom: 30px;
+    
     margin-top: 0;
     text-align: center;
     font-weight: normal;
@@ -318,7 +318,7 @@ color: var(--main-text-color);
 }
 .team-photo {
     margin-top: 0;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }   
 .team-list {
     
@@ -370,6 +370,32 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
+.footer {
+            
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    
+}    
+.footer-logo {
+    padding: auto;
+    display: inline-block;
+    
+    padding-bottom: 20px;
+}
+.footer-adress {
+    padding-bottom: 9px;
+    
+    
+}
+.footer-contacts {
+    display: inline-block;
+    padding-bottom: 9px;
+    
+}
+ 
              /* Portfolio styling */
 .portfolio-nav-list {
     cursor: pointer;
@@ -441,38 +467,6 @@ color: #FFFFFF;
     .hero {
         background-color: var(--secondary-background-color);
     }
-      
-
-    
-
-    
-    
-
-        .footer {
-            
-                margin-top: 0;
-                margin-bottom: 0;
-                padding-top: 60px;
-                padding-bottom: 60px;
-                
-                
-            }    
-            .footer-logo {
-                padding: auto;
-                display: inline-block;
-                
-                margin-bottom: 20px;
-            }
-            .footer-adress {
-                margin-bottom: 9px;
-                
-                
-            }
-            .footer-contacts {
-                display: inline-block;
-                margin-bottom: 9px;
-                
-            }
          
          
         
