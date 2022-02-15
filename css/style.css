@@ -420,7 +420,7 @@ color: rgba(255, 255, 255, 0.6);
       
     
     .portfolio-nav-list {
-    display: inline-block;
+    padding: 6px 22px;
     
     
     cursor: pointer;
@@ -431,10 +431,10 @@ color: rgba(255, 255, 255, 0.6);
     top: 174px;
     background: var(--team-bg-color);
     border-radius: 4px;
-    border: transparent;
+    border: none;
 }
 
-    .portfolio-nav-list:not(last-child) {
+    .portfolio-nav:not(:last-child) {
         margin-right: 8px;
     }
 
