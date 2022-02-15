@@ -5,6 +5,7 @@
     --main-hover-color: #2196F3;
     --secondary-background-color: #2F303A;
     --team-bg-color: #F5F4FA;
+    --portfolio-img-border: #EEEEEE;
     
 }
 ul {
@@ -127,6 +128,7 @@ color: var(--main-text-color);
 .nav {
     display: flex;
     align-items: center;
+    
 }    
     
 
@@ -397,19 +399,33 @@ color: rgba(255, 255, 255, 0.6);
 }
  
              /* Portfolio styling */
-.portfolio-nav-list {
+    .portfolio {
+        display: flex;
+        justify-content: center;
+        padding-top: 94px;
+        padding-bottom: 50px;
+    }
+      
+    
+   
+    
+    .portfolio-nav-list {
+    display: inline-block;
+    
+    
     cursor: pointer;
     font-family:inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: var(--secondary-text-color);
-    background: #F5F4FA;
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    background: var(--team-bg-color);
     border-radius: 4px;
+    border: transparent;
 }
+
+
+
 
 .portfolio-nav-list:hover {
 background: var(--main-hover-color);
@@ -439,7 +455,39 @@ color: #FFFFFF;
     
     color: #FFFFFF;
     }
+    .portfolio-img-list{
+        width: 370px;
+        height: 1.09;
+        left: 215px;
+        top: 262px;
+        background: #FFFFFF;
+        border: 1px solid var(--portfolio-img-border);
+        box-sizing: border-box;
+    }    
+        
+    .portfolio-img {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .portfolio-img-list {
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .portfolio-img-list:nth-child(3n) {
+        margin-right: 0;
+    }    
+
+    .portfolio-img-list:nth-last-child(-n + 3) {
+        margin-bottom: 94px;
+    }
+
+    .portfolio-item {
+        padding-bottom: 20px;
+    }
     .portfolio-img-name {
+        padding-bottom: 4px;
         
         font-weight: bold;
         font-size: 18px;
@@ -467,8 +515,7 @@ color: #FFFFFF;
     .hero {
         background-color: var(--secondary-background-color);
     }
-         
-         
+    
         
         
         
