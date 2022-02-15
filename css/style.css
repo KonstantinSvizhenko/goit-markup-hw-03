@@ -133,8 +133,8 @@ color: var(--main-text-color);
 .nav {
     display: flex;
     align-items: center;
-    
 }    
+    
     
 
 .nav-list .nav-list-item + .nav-list-item {
