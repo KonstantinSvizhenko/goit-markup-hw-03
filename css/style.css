@@ -36,6 +36,12 @@ div {
     display: block;
 }
 
+img {
+  display: block;  
+}
+    
+
+
 h1,
 h2,
 h3,
@@ -496,9 +502,7 @@ color: #FFFFFF;
         margin-bottom: 94px;
     }
 
-    .portfolio-item {
-        padding-bottom: 20px;
-    }
+    
     .portfolio-img-name {
         margin-bottom: 4px;
         
@@ -517,9 +521,11 @@ color: #FFFFFF;
         color: var(--main-text-color);
     }
     
-
+    
+    
     .portfolio-description {
-        padding: 20px 24px;
+        padding: 0 24px 20px
+        24px;
        border-bottom: 1px solid var(--portfolio-img-border);
        border-left: 1px solid var(--portfolio-img-border);
        border-right: 1px solid var(--portfolio-img-border);
