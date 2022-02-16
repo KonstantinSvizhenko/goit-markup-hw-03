@@ -63,6 +63,8 @@ p {
 
 .header {
     border-bottom: 1px solid #ECECEC;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .logo {
@@ -110,7 +112,7 @@ color: var(--main-text-color);
 
 .nav-list-item {
     
-    margin: 32px 0;
+    
     display: block;
     
 }     
@@ -142,7 +144,7 @@ color: var(--main-text-color);
 } 
 
 
-.header-contacts .email {
+.header-contacts:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -150,8 +152,8 @@ color: var(--main-text-color);
                  /*  Hero  */
 
 .hero {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 200px;
+    padding-bottom: 200px;
    
     
     text-align: center;
@@ -204,7 +206,7 @@ color: var(--main-text-color);
                     /* advantages */
 .advantages {
     padding-top: 94px;
-    padding-bottom: 94px;
+    
 }                    
 
 .advantages-main {
@@ -221,7 +223,7 @@ color: var(--main-text-color);
 
 .advantages-item {
     
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -251,9 +253,17 @@ color: var(--main-text-color);
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
- .specialization-name {
-    text-align: center;
+ 
+  .specialization-name {  
     
+    
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
     margin-bottom: 50px;
     
 }
@@ -296,7 +306,7 @@ letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 .team-member {
-padding-bottom: 10px;
+margin-bottom: 10px;
 text-align: center;
 font-weight: 500;
 font-size: 16px;
@@ -315,6 +325,11 @@ color: var(--secondary-text-color);
 
 color: var(--main-text-color);
 }
+
+.container-team {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .team {
         
     background-color: var(--team-bg-color);
@@ -327,14 +342,12 @@ color: var(--main-text-color);
 }
 .team-photo {
     margin-top: 0;
-    padding-bottom: 30px;
+    
 }   
 .team-list {
     
     width: 270px;
-    height: 368px;
-    left: 1115px;
-    top: 1635px;
+   
 
     background: #FFFFFF;
     
@@ -361,7 +374,7 @@ color: #2196F3;
 .footer-adress {
     
     font-style: normal;
-    font-weight: normal;
+    
     font-size: 14px;
     line-height: 1.71;
     
@@ -371,14 +384,30 @@ color: #2196F3;
     color: #FFFFFF;
 }
 .footer-contacts {
+display: inline-block;
+font-style: normal;
 
 
+}
+.footer-list:not(:last-child) {
+    margin-bottom: 9px;
+ }   
+    
+.footer-contacts {
+    font-family: inherit;
+font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 1.71;
+line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
+
+
+
+
+ 
+
 .footer {
             
     margin-top: 0;
@@ -392,18 +421,14 @@ color: rgba(255, 255, 255, 0.6);
     padding: auto;
     display: inline-block;
     
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .footer-adress {
     padding-bottom: 9px;
     
     
 }
-.footer-contacts {
-    display: inline-block;
-    padding-bottom: 9px;
-    
-}
+
  
              /* Portfolio styling */
 
